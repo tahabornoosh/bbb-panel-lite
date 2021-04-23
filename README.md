@@ -8,4 +8,5 @@ to install:
 
 INSERT INTO `admins` (`name`, `fname`, `email`, `pass`, `role`, `visible`) VALUES
 ('admin', 'user', 'admin@gmail.com', 'YOUR_MD5_PASSWORD', 2, 1);
+
 6. open your web root directory and login with your user, if everything ok, delete database.php and start using panel
