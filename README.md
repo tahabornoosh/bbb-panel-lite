@@ -1,4 +1,5 @@
-Farsi BigBlueButton Control Panel
+Farsi BigBlueButton PHP Control Panel
+
 to install:
 1. clone this codes
 2. create a database and user an insert the database.sql file in database
