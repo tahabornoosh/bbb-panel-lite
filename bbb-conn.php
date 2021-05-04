@@ -4,12 +4,9 @@ require_once 'vendor/autoload.php';
 
 use sanduhrs\BigBlueButton;
 
-//$url = 'http://test-install.blindsidenetworks.com/bigbluebutton/api';
-//$secret = '8cd8ef52e8e101574e400365b55e11a6';
-//$endpoint = '/';
-$url = "http://online.codynick.com/bigbluebutton/";
-$secret = "CajUEKwHW2oHP5uVhcTxR0LGVBSSIscJbcWXExTnlqA";
-$endpoint = 'api/';
+$url = 'http://test-install.blindsidenetworks.com/bigbluebutton/api';
+$secret = '8cd8ef52e8e101574e400365b55e11a6';
+$endpoint = '/';
 
 // Initialize a BigBlueButton object.
 $bbb = new BigBlueButton($url, $secret, $endpoint);
@@ -17,11 +14,11 @@ $meeting = $bbb->server->addMeeting([
     'id' => '695-114-822-447',
     'attendeePW' => 'Guphei4i',
     'moderatorPW' => 'ioy9Xep9',
-    'name' => 'taha-amirparsa meeting',
+    'name' => 'test meeting',
     'welcome' => 'خوش آمدید.',
     'logoutURL' => 'otapams.org',
     'allowModsToUnmuteUsers' => TRUE,
-    'bannerText	' => 'سلام بر بزرگواران',
+    'bannerText	' => '',
     'bannerColor' => 'red',
     'record' => 'true',
     'guestPolicy' => 'ASK_MODERATOR',
